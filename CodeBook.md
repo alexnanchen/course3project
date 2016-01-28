@@ -42,7 +42,7 @@ The final dataset contains 69 variables and 10299 observations.
 
 ### Feature variables
 #### Naming scheme
-The feature variables are measurements the accelerometer and gyroscope contain in the smart phone.
+The feature variables are measurements the accelerometer and gyroscope contained in the smart phone.
 The following naming scheme has been choosen:
 
 ```
