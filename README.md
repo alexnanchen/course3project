@@ -5,6 +5,7 @@ In the git you will find two files. The first one is an R script that you can ru
 
 Here are the instructions to execute the R script:
 
-1. Set the WORKDIR variable at the top of the script file. This is going to be the location where the data is downloaded
-2. Source the file from RStudio or R
-3. The output is a CSV file named tidy_data.csv that contains the tidy data
+1. Install the dplyr package if not already installed
+2. Set the WORKDIR variable at the top of the script file. This is going to be the location where the data is downloaded
+3. Source the file from RStudio or R
+4. The output is a CSV file named tidy_data.csv that contains the tidy data
