@@ -1,6 +1,6 @@
 # Getting and cleaning data Code Book
 ## Data origin
-The source dataset is "Human Activity Recognition Using Smartphones Data Set" can be found on the following place: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+The original dataset is called "Human Activity Recognition Using Smartphones Data Set" and can be found on the following place: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 This code book is for a tidy version of this dataset.
 
@@ -57,69 +57,69 @@ Each feature variable is of numeric type.
 
 Here is a list of all feature variables:
 
-timeBodyAcc.mean.X
-timeBodyAcc.mean.Y
-timeBodyAcc.mean.Z
-timeGravityAcc.mean.X
-timeGravityAcc.mean.Y
-timeGravityAcc.mean.Z
-timeBodyAccJerk.mean.X
-timeBodyAccJerk.mean.Y
-timeBodyAccJerk.mean.Z
-timeBodyGyro.mean.X
-timeBodyGyro.mean.Y
-timeBodyGyro.mean.Z
-timeBodyGyroJerk.mean.X
-timeBodyGyroJerk.mean.Y
-timeBodyGyroJerk.mean.Z
-timeBodyAccMag.mean
-timeGravityAccMag.mean
-timeBodyAccJerkMag.mean
-timeBodyGyroMag.mean
-timeBodyGyroJerkMag.mean
-frequencyBodyAcc.mean.X
-frequencyBodyAcc.mean.Y
-frequencyBodyAcc.mean.Z
-frequencyBodyAccJerk.mean.X
-frequencyBodyAccJerk.mean.Y
-frequencyBodyAccJerk.mean.Z
-frequencyBodyGyro.mean.X
-frequencyBodyGyro.mean.Y
-frequencyBodyGyro.mean.Z
-frequencyBodyAccMag.mean
-frequencyBodyBodyAccJerkMag.mean
-frequencyBodyBodyGyroMag.mean
-frequencyBodyBodyGyroJerkMag.mean
-timeBodyAcc.std.X
-timeBodyAcc.std.Y
-timeBodyAcc.std.Z
-timeGravityAcc.std.X
-timeGravityAcc.std.Y
-timeGravityAcc.std.Z
-timeBodyAccJerk.std.X
-timeBodyAccJerk.std.Y
-timeBodyAccJerk.std.Z
-timeBodyGyro.std.X
-timeBodyGyro.std.Y
-timeBodyGyro.std.Z
-timeBodyGyroJerk.std.X
-timeBodyGyroJerk.std.Y
-timeBodyGyroJerk.std.Z
-timeBodyAccMag.std
-timeGravityAccMag.std
-timeBodyAccJerkMag.std
-timeBodyGyroMag.std
-timeBodyGyroJerkMag.std
-frequencyBodyAcc.std.X
-frequencyBodyAcc.std.Y
-frequencyBodyAcc.std.Z
-frequencyBodyAccJerk.std.X
-frequencyBodyAccJerk.std.Y
-frequencyBodyAccJerk.std.Z
-frequencyBodyGyro.std.X
-frequencyBodyGyro.std.Y
-frequencyBodyGyro.std.Z
-frequencyBodyAccMag.std
-frequencyBodyBodyAccJerkMag.std
-frequencyBodyBodyGyroMag.std
-frequencyBodyBodyGyroJerkMag.std
+- timeBodyAcc.mean.X
+- timeBodyAcc.mean.Y
+- timeBodyAcc.mean.Z
+- timeGravityAcc.mean.X
+- timeGravityAcc.mean.Y
+- timeGravityAcc.mean.Z
+- timeBodyAccJerk.mean.X
+- timeBodyAccJerk.mean.Y
+- timeBodyAccJerk.mean.Z
+- timeBodyGyro.mean.X
+- timeBodyGyro.mean.Y
+- timeBodyGyro.mean.Z
+- timeBodyGyroJerk.mean.X
+- timeBodyGyroJerk.mean.Y
+- timeBodyGyroJerk.mean.Z
+- timeBodyAccMag.mean
+- timeGravityAccMag.mean
+- timeBodyAccJerkMag.mean
+- timeBodyGyroMag.mean
+- timeBodyGyroJerkMag.mean
+- frequencyBodyAcc.mean.X
+- frequencyBodyAcc.mean.Y
+- frequencyBodyAcc.mean.Z
+- frequencyBodyAccJerk.mean.X
+- frequencyBodyAccJerk.mean.Y
+- frequencyBodyAccJerk.mean.Z
+- frequencyBodyGyro.mean.X
+- frequencyBodyGyro.mean.Y
+- frequencyBodyGyro.mean.Z
+- frequencyBodyAccMag.mean
+- frequencyBodyBodyAccJerkMag.mean
+- frequencyBodyBodyGyroMag.mean
+- frequencyBodyBodyGyroJerkMag.mean
+- timeBodyAcc.std.X
+- timeBodyAcc.std.Y
+- timeBodyAcc.std.Z
+- timeGravityAcc.std.X
+- timeGravityAcc.std.Y
+- timeGravityAcc.std.Z
+- timeBodyAccJerk.std.X
+- timeBodyAccJerk.std.Y
+- timeBodyAccJerk.std.Z
+- timeBodyGyro.std.X
+- timeBodyGyro.std.Y
+- timeBodyGyro.std.Z
+- timeBodyGyroJerk.std.X
+- timeBodyGyroJerk.std.Y
+- timeBodyGyroJerk.std.Z
+- timeBodyAccMag.std
+- timeGravityAccMag.std
+- timeBodyAccJerkMag.std
+- timeBodyGyroMag.std
+- timeBodyGyroJerkMag.std
+- frequencyBodyAcc.std.X
+- frequencyBodyAcc.std.Y
+- frequencyBodyAcc.std.Z
+- frequencyBodyAccJerk.std.X
+- frequencyBodyAccJerk.std.Y
+- frequencyBodyAccJerk.std.Z
+- frequencyBodyGyro.std.X
+- frequencyBodyGyro.std.Y
+- frequencyBodyGyro.std.Z
+- frequencyBodyAccMag.std
+- frequencyBodyBodyAccJerkMag.std
+- frequencyBodyBodyGyroMag.std
+- frequencyBodyBodyGyroJerkMag.std
