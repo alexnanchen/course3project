@@ -33,7 +33,7 @@ The final dataset contains 69 variables and 10299 observations.
     - 5: standing
     - 6: laying
 
-3. setid: int
+3. set: int
   - The set id for the current observation
   - Two datasets are provided in order to compare results. One for development and tuning and one for testing.
   - Possible values are:
@@ -53,4 +53,73 @@ i.e. timeBodyAcc.mean.X
 ```
 
 #### Variables list
+Each feature variable is of numeric type.
 
+Here is a list of all feature variables:
+
+timeBodyAcc.mean.X
+timeBodyAcc.mean.Y
+timeBodyAcc.mean.Z
+timeGravityAcc.mean.X
+timeGravityAcc.mean.Y
+timeGravityAcc.mean.Z
+timeBodyAccJerk.mean.X
+timeBodyAccJerk.mean.Y
+timeBodyAccJerk.mean.Z
+timeBodyGyro.mean.X
+timeBodyGyro.mean.Y
+timeBodyGyro.mean.Z
+timeBodyGyroJerk.mean.X
+timeBodyGyroJerk.mean.Y
+timeBodyGyroJerk.mean.Z
+timeBodyAccMag.mean
+timeGravityAccMag.mean
+timeBodyAccJerkMag.mean
+timeBodyGyroMag.mean
+timeBodyGyroJerkMag.mean
+frequencyBodyAcc.mean.X
+frequencyBodyAcc.mean.Y
+frequencyBodyAcc.mean.Z
+frequencyBodyAccJerk.mean.X
+frequencyBodyAccJerk.mean.Y
+frequencyBodyAccJerk.mean.Z
+frequencyBodyGyro.mean.X
+frequencyBodyGyro.mean.Y
+frequencyBodyGyro.mean.Z
+frequencyBodyAccMag.mean
+frequencyBodyBodyAccJerkMag.mean
+frequencyBodyBodyGyroMag.mean
+frequencyBodyBodyGyroJerkMag.mean
+timeBodyAcc.std.X
+timeBodyAcc.std.Y
+timeBodyAcc.std.Z
+timeGravityAcc.std.X
+timeGravityAcc.std.Y
+timeGravityAcc.std.Z
+timeBodyAccJerk.std.X
+timeBodyAccJerk.std.Y
+timeBodyAccJerk.std.Z
+timeBodyGyro.std.X
+timeBodyGyro.std.Y
+timeBodyGyro.std.Z
+timeBodyGyroJerk.std.X
+timeBodyGyroJerk.std.Y
+timeBodyGyroJerk.std.Z
+timeBodyAccMag.std
+timeGravityAccMag.std
+timeBodyAccJerkMag.std
+timeBodyGyroMag.std
+timeBodyGyroJerkMag.std
+frequencyBodyAcc.std.X
+frequencyBodyAcc.std.Y
+frequencyBodyAcc.std.Z
+frequencyBodyAccJerk.std.X
+frequencyBodyAccJerk.std.Y
+frequencyBodyAccJerk.std.Z
+frequencyBodyGyro.std.X
+frequencyBodyGyro.std.Y
+frequencyBodyGyro.std.Z
+frequencyBodyAccMag.std
+frequencyBodyBodyAccJerkMag.std
+frequencyBodyBodyGyroMag.std
+frequencyBodyBodyGyroJerkMag.std
