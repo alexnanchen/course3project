@@ -43,7 +43,7 @@ The final dataset contains 69 variables and 10299 observations.
 
 ### Feature variables
 #### Naming scheme
-The feature variables are measurements the accelerometer and gyroscope contained in the smart phone.
+The feature variables are measurements from the accelerometer and gyroscope contained in a smart phone.
 The following naming scheme has been choosen:
 
 ```
@@ -55,6 +55,10 @@ i.e. timeBodyAcc.mean.X
 
 #### Variables list
 Each feature variable is of numeric type.
+
+Feature values can be in the time (time unit) or frequency domains (frequency) domain. See the "Naming scheme" section.
+
+The values of a given feature are mean statistics. They are related to a given user and activity.This means that observations for a given user **and** activity are grouped together and their mean is computed.
 
 Here is a list of all feature variables:
 
