@@ -1,6 +1,6 @@
 # Getting and cleaning data Code Book
 ## Data origin
-The original dataset is called "Human Activity Recognition Using Smartphones Data Set" and can be found on the following place: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+The original dataset is called "Human Activity Recognition Using Smartphones Data Set" and can be found on the following location: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 This code book is for a tidy version of this dataset.
 
