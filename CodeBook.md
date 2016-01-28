@@ -22,16 +22,16 @@ The final dataset contains 69 variables and 10299 observations.
   - User identifiant
   - An integer between 1 and 30
 
-2. activity: int
-  - User activity number
+2. activity: char
+  - User activity 
   - The activity during which measurements where made
   - Possible values are:
-    - 1: walking
-    - 2: walking_upstairs
-    - 3: waling_downstairs
-    - 4: sitting
-    - 5: standing
-    - 6: laying
+    - walking
+    - walking_up
+    - waling_down
+    - sitting
+    - standing
+    - laying
 
 3. set: int
   - The set id for the current observation
