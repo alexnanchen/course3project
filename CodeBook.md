@@ -1,16 +1,20 @@
 # Getting and cleaning data Code Book
-## Data
+## Data origin
 The source dataset is "Human Activity Recognition Using Smartphones Data Set" can be found on the following place: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 This code book is for a tidy version of this dataset.
-## Format
-The information provided for each variable is under the following format:
 
-Variable short name: variable size
-- Variable name
-- Description
-- Unit
-- Possible values
+## Data preparation
+The following steps have been performed:
+1. Merge of train and test data keeping the information about which set the data came from
+2. Extraction of mean and std statistics from the set of features
+3. Variables name normalization: 
+  - Parentheses and hyphens have been replace by dots
+  - Expansion of the first letter of the variables: t into time and f into frequency
+4. Activity labels expansion: numbers have been translated into words for better readability
+5. Grouping of measurements by activity and subject
+
+The final dataset contains 69 variables and 10299 observations.
 
 ## Variables
 ### Meta variables
@@ -37,30 +41,16 @@ Variable short name: variable size
     - 2: test set
 
 ### Feature variables
-1. dimension: char of size 1
-  - The dimension for which the observation applies
-  - Three dimension are possible, X,Y and Z
-  - Possible values are:
-    - x
-    - y
-    - z
+#### Naming scheme
+The feature variables are measurements the accelerometer and gyroscope contain in the smart phone.
+The following naming scheme has been choosen:
 
-2. fBodyAcc
-3. fBodyAccJerk
-4. fBodyAccMag
-5. fBodyBodyAccJerkMag
-6. fBodyBodyGyroJerkMag
-7. fBodyBodyGyroMag
-8. fBodyGyro
-9. tBodyAcc
-10. tBodyAccJerk
-11. tBodyAccJerkMag
-12. tBodyAccMag
-13. tBodyGyro
-14. tBodyGyroJerk
-15. tBodyGyroJerkMag
-16. tBodyGyroMag
-17. tGravityAcc
-18. tGravityAccMag
+```
+domainFeature.statistic.dimension
 
+i.e. timeBodyAcc.mean.X
+     frequencyBodyGyro.mean.Z
+```
+
+#### Variables list
 
