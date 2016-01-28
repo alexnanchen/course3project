@@ -6,6 +6,7 @@ This code book is for a tidy version of this dataset.
 
 ## Data preparation
 The following steps have been performed:
+
 1. Merge of train and test data keeping the information about which set the data came from
 2. Extraction of mean and std statistics from the set of features
 3. Variables name normalization: 
