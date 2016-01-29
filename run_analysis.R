@@ -123,7 +123,7 @@ names(dfFinal) <- gsub('^f','frequency',names(dfFinal))
 dfSummarized <- group_by(dfFinal,userid,activity) %>% summarise_each(funs(mean))
 
 cat("Writing tidy data\n")
-write.csv(dfSummarized,file="tidy_data.csv",row.names = FALSE)
+write.csv(dfSummarized,file="tidy_data.csv",row.names = FALSE,quote=FALSE)
 
 setwd(initDir)
 
