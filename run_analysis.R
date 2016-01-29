@@ -19,7 +19,7 @@ library(dplyr)
 # Constants
 #
 #Directories
-WORKDIR <- ""
+WORKDIR <- "/Users/alexnanchen/data-science"
 DATADIR <- paste0(WORKDIR,"/ucihardataset")
 TRAININGDIR <- paste0(DATADIR,"/train")
 TESTINGDIR <- paste0(DATADIR,"/test")
@@ -123,7 +123,7 @@ names(dfFinal) <- gsub('^f','frequency',names(dfFinal))
 dfSummarized <- group_by(dfFinal,userid,activity) %>% summarise_each(funs(mean))
 
 cat("Writing tidy data\n")
-write.csv(dfSummarized,file="tidy_data.csv",row.names = FALSE,quote=FALSE)
+write.table(dfSummarized,file="tidy_data.txt",row.names = FALSE,quote=FALSE, sep=",")
 
 setwd(initDir)
 
