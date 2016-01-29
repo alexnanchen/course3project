@@ -19,7 +19,7 @@ library(dplyr)
 # Constants
 #
 #Directories
-WORKDIR <- "/Users/alexnanchen/data-science"
+WORKDIR <- ""
 DATADIR <- paste0(WORKDIR,"/ucihardataset")
 TRAININGDIR <- paste0(DATADIR,"/train")
 TESTINGDIR <- paste0(DATADIR,"/test")
